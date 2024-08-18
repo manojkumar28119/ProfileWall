@@ -1,0 +1,36 @@
+.App{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.main-card{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: center;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;  
+  margin-bottom: 50px;
+}
+.heading{
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+@media screen and (max-width:578px) {
+  .main-card{
+    width: 100%;
+  }
+}
+
+.spinner-card{
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
